@@ -1,0 +1,28 @@
+body {
+	background-color: turquoise;
+	font-family: Verdana, Sans-Serif;
+}
+
+header {
+	margin: 2em auto;
+	width: 70%;
+	background-color: white;
+	padding: 3em;
+	text-align: center;
+	border-radius: 15px;
+}
+
+h1 {
+	font-size: 3em;
+}
+.main {
+	width: 40%;
+	margin: 2em auto;
+	background-color: white;
+	padding: 3em;
+	border-radius: 15px;
+}
+
+button {
+	margin: 10px;
+}

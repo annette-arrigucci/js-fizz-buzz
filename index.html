@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FizzBuzz function</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>JavaScript FizzBuzz function</h1>
+	</header>
+	<div class="main">
+		<p>Enter two numbers between 1 and 100:</p>
+		
+		<form id="enter-numbers">
+			<P>
+			<label for="number-1">First number</label><br>
+			<input type="text" id="number-1">
+			</P>
+			
+			<p>
+			<label for="number-2">Second number</label><br>
+			<input type="text" id="number-2">
+			</p>
+		</form>
+
+		<p>Press the button to print out numbers 1 through 100 replacing number with "Fizz" if divisible by the first number, "Buzz" if divisible by the second number and "FizzBuzz" if divisible by both the first and second numbers.</p>
+		<button id="submit-button">FizzBuzz!</button>
+		
+		<div id="fizz-buzz-result">	
+		</div>
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
