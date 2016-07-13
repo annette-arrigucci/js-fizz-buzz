@@ -10,9 +10,7 @@ $(document).ready(function() {
 		}
 		else if(validateNumber(myInput1) && validateNumber(myInput2)){
 			var number1 = parseInt(myInput1);
-			alert(number1);
 			var number2 = parseInt(myInput2);
-			alert(number2);
 			fizzBuzz(number1, number2);
 		}
 	});
